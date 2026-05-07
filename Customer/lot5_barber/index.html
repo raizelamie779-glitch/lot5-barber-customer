@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>LOT 5 BARBERSHOP - Welcome</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary": "#c6c6c7",
+                        "surface-tint": "#e9c400",
+                        "inverse-on-surface": "#303030",
+                        "on-surface-variant": "#d0c6ab",
+                        "on-tertiary": "#003911",
+                        "tertiary-fixed": "#6bff83",
+                        "on-tertiary-fixed-variant": "#00531b",
+                        "inverse-primary": "#705d00",
+                        "outline-variant": "#4d4732",
+                        "outline": "#999077",
+                        "background": "#131313",
+                        "secondary-fixed": "#e2e2e2",
+                        "tertiary": "#dfffdb",
+                        "primary-container": "#ffd700",
+                        "on-secondary-fixed-variant": "#454747",
+                        "surface-container-low": "#1b1b1b",
+                        "surface": "#131313",
+                        "surface-bright": "#393939",
+                        "on-secondary-fixed": "#1a1c1c",
+                        "on-error": "#690005",
+                        "on-primary": "#3a3000",
+                        "on-background": "#e2e2e2",
+                        "secondary-container": "#454747",
+                        "primary-fixed": "#ffe16d",
+                        "surface-container-high": "#2a2a2a",
+                        "surface-dim": "#131313",
+                        "on-surface": "#e2e2e2",
+                        "on-tertiary-fixed": "#002107",
+                        "error": "#ffb4ab",
+                        "on-primary-fixed": "#221b00",
+                        "surface-container-highest": "#353535",
+                        "on-tertiary-container": "#006e27",
+                        "error-container": "#93000a",
+                        "on-primary-container": "#705e00",
+                        "primary": "#fff6df",
+                        "surface-container": "#1f1f1f",
+                        "on-secondary": "#2f3131",
+                        "on-secondary-container": "#b4b5b5",
+                        "on-primary-fixed-variant": "#544600",
+                        "on-error-container": "#ffdad6",
+                        "tertiary-container": "#00fb64",
+                        "surface-variant": "#353535",
+                        "tertiary-fixed-dim": "#00e55b",
+                        "primary-fixed-dim": "#e9c400",
+                        "surface-container-lowest": "#0e0e0e",
+                        "inverse-surface": "#e2e2e2",
+                        "secondary-fixed-dim": "#c6c6c7"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "stack-lg": "32px",
+                        "stack-md": "16px",
+                        "stack-sm": "8px",
+                        "stack-xl": "64px",
+                        "gutter": "16px",
+                        "container-padding": "32px",
+                        "unit": "8px"
+                    },
+                    "fontFamily": {
+                        "headline-xl": ["Inter"],
+                        "label-bold": ["Inter"],
+                        "headline-md": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "body-md": ["Inter"],
+                        "headline-lg": ["Inter"],
+                        "label-sm": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-xl": ["clamp(32px, 8vw, 48px)", { "lineHeight": "1.1", "letterSpacing": "-0.04em", "fontWeight": "800" }],
+                        "label-bold": ["14px", { "lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "700" }],
+                        "headline-md": ["24px", { "lineHeight": "1.3", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "letterSpacing": "0", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "letterSpacing": "0", "fontWeight": "400" }],
+                        "headline-lg": ["32px", { "lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "label-sm": ["12px", { "lineHeight": "1.2", "letterSpacing": "0.02em", "fontWeight": "500" }]
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="bg-black min-h-screen flex items-center justify-center p-gutter">
+    <main class="w-full max-w-md">
+        <div
+            class="bg-[#121212] border border-[#222222] rounded-lg p-6 sm:p-container-padding w-full flex flex-col items-center shadow-2xl relative overflow-hidden group hover:border-[#FFD700] transition-colors duration-500">
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#121212] opacity-50 pointer-events-none">
+            </div>
+            <div class="mb-stack-lg z-10 text-center w-full">
+                <div
+                    class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary-container/10 mb-stack-md border border-primary-container/30 glow-effect mx-auto">
+                    <span class="material-symbols-outlined text-primary-container text-3xl"
+                        data-icon="content_cut">content_cut</span>
+                </div>
+                <h1 class="font-headline-xl text-headline-xl text-primary-container mb-stack-sm uppercase">LOT 5
+                    BARBERSHOP</h1>
+                <p class="font-headline-md text-headline-md text-on-surface">Welcome, Sir.</p>
+            </div>
+            <div class="w-full flex border-b border-[#222222] mb-stack-md z-10">
+                <button
+                    class="flex-1 py-3 font-label-bold text-label-bold text-primary-container border-b-2 border-primary-container text-center uppercase transition-colors"
+                    id="tab-walkin" onclick="switchTab('walkin')" type="button">Walk-in</button>
+                <button
+                    class="flex-1 py-3 font-label-bold text-label-bold text-on-surface-variant border-b-2 border-transparent hover:text-on-surface text-center uppercase transition-colors"
+                    id="tab-booking" onclick="switchTab('booking')" type="button">Booking</button>
+            </div>
+            <form id="booking-form" class="w-full space-y-stack-md z-10">
+                <div class="flex flex-col">
+                    <label class="font-label-bold text-label-bold text-on-surface-variant mb-stack-sm uppercase"
+                        for="name">NAME</label>
+                    <input
+                        class="bg-[#121212] border border-[#222222] text-on-surface rounded-DEFAULT px-4 py-3 focus:border-primary-container focus:ring-0 transition-colors font-body-md text-body-md"
+                        id="name" name="name" placeholder="Enter your name" type="text" />
+                </div>
+                <div class="flex flex-col">
+                    <label class="font-label-bold text-label-bold text-on-surface-variant mb-stack-sm uppercase"
+                        for="phone">PHONE NUMBER</label>
+                    <input
+                        class="bg-[#121212] border border-[#222222] text-on-surface rounded-DEFAULT px-4 py-3 focus:border-primary-container focus:ring-0 transition-colors font-body-md text-body-md"
+                        id="phone" name="phone" placeholder="Enter your phone number" type="tel" />
+                </div>
+                <div class="hidden flex-col" id="date-selection">
+                    <label class="font-label-bold text-label-bold text-on-surface-variant mb-stack-sm uppercase">SELECT
+                        DATE</label>
+                    <div class="flex overflow-x-auto gap-2 pb-2 no-scrollbar" id="dynamic-date-container">
+                        <!-- Dynamic dates will be injected here -->
+                    </div>
+                </div>
+                <div class="hidden flex-col" id="time-slots">
+                    <label class="font-label-bold text-label-bold text-on-surface-variant mb-stack-sm uppercase">SELECT
+                        TIME</label>
+                    <div class="gap-2">
+                        <div class="flex overflow-x-auto gap-2 pb-2 no-scrollbar" id="dynamic-time-container">
+                            <!-- Dynamic times will be injected here -->
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-stack-md flex flex-col gap-stack-sm">
+                    <button id="confirm-btn"
+                        class="w-full bg-primary-container text-black font-label-bold text-label-bold rounded-DEFAULT px-6 py-4 uppercase tracking-widest hover:bg-surface-tint transition-colors flex justify-center items-center gap-2"
+                        type="submit">
+                        <span>Confirm</span>
+                        <span class="material-symbols-outlined text-black" data-icon="check_circle">check_circle</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
