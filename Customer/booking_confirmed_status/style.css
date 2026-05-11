@@ -1,0 +1,6 @@
+.material-symbols-outlined {
+    display: inline-block;
+}
+body {
+    min-height: max(884px, 100dvh);
+}
